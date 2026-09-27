@@ -2,7 +2,7 @@
 
 ピアノの譜読み練習用のWebアプリです。五線譜にランダムな音符が1つ表示され、ピアノで弾いて答え合わせします。
 
-**公開ページ:** https://purepu-hc.github.io/onpudrill/
+**公開ページ:** https://onpudrill.vercel.app/
 
 ## できること
 - ト音記号・ヘ音記号・大譜表の表示
