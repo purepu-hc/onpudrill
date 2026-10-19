@@ -106,10 +106,16 @@ select{font-family:inherit;font-size:1rem;padding:6px 8px;border-radius:9px;bord
   .rangerow{grid-template-columns:auto 1fr}
   .stamp{width:62px;height:62px;font-size:40px}
 }
+/* おうちラボへ戻るボタン */
+.ouchi-home{display:inline-flex;align-items:center;gap:4px;flex:none;align-self:center;padding:3px 10px 3px 8px;border:2px solid currentColor;border-radius:999px;font:700 12px/1.4 "Zen Maru Gothic",sans-serif;letter-spacing:.04em;color:var(--muted,var(--ink-2,#5a687c));text-decoration:none;white-space:nowrap}
+.ouchi-home:hover{color:var(--ink,#1c2736)}
+.ouchi-home:focus-visible{outline:3px solid var(--accent,#2f6bd8);outline-offset:2px}
+.ouchi-home svg{width:15px;height:15px}
 </style>
 
 <div class="wrap">
   <header>
+    <a class="ouchi-home" href="https://ouchi-lab.vercel.app/" aria-label="おうちラボへもどる"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 9.5V20h13V9.5"/><path d="M10 20v-5h4v5"/></svg>おうちラボ</a>
     <h1>おんぷよみドリル<small>がくふの音を見て、ピアノでひいてみよう</small></h1>
     <div class="stats" aria-live="polite">
       <span class="chip">せいかい<b id="stCorrect">0</b> / <b id="stTotal">0</b></span>
