@@ -349,7 +349,7 @@ function render(state){
     const b=L.bottom[c];
     for(let i=0;i<5;i++) el('line',{x1:x0,x2:x1,y1:b-i*SP,y2:b-i*SP,stroke:ink,'stroke-width':1.3},svg);
     el('line',{x1:x1,x2:x1,y1:b-4*SP,y2:b,stroke:ink,'stroke-width':1.3},svg);
-    const t=el('text',{x:x0+8,y:b-(c==='treble'?SP:3*SP),'font-family':'OnpuMusic','font-size':4*SP,fill:ink},svg);
+    const t=el('text',{x:x0+8,y:b,'font-family':'OnpuMusic','font-size':4*SP,fill:ink},svg);
     t.textContent=CLEF[c].glyph;
   });
   if(S.grand){
